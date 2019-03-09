@@ -85,7 +85,7 @@ public class LaunchBrowserer {
 	    robot.keyRelease(KeyEvent.VK_ENTER);
 	    
 	    
-	    robot.setAutoDelay(5000);
+	    robot.setAutoDelay(15000);
 	    
 	  
 	  /*  WebElement mynaukari = driver.findElementByXPath("//div[text()='My Naukri']");
