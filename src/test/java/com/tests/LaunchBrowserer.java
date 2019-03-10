@@ -66,7 +66,7 @@ public class LaunchBrowserer {
 			
 	    robot.setAutoDelay(2000);
 	    ClipboardOwner owner=null;
-	    String resumepath="F:\\SREENIVASULU BORUGULA.docx";
+	    String resumepath="C:\\SREENIVASULU BORUGULA.docx";
 	 
 		StringSelection attachmentpath=new StringSelection(resumepath);
 	    Toolkit.getDefaultToolkit().getSystemClipboard().setContents(attachmentpath, owner);
@@ -85,7 +85,7 @@ public class LaunchBrowserer {
 	    robot.keyRelease(KeyEvent.VK_ENTER);
 	    
 	    
-	    robot.setAutoDelay(15000);
+	    robot.setAutoDelay(5000);
 	    
 	  
 	  /*  WebElement mynaukari = driver.findElementByXPath("//div[text()='My Naukri']");
